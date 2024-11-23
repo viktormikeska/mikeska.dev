@@ -1,0 +1,60 @@
+* {
+  font-family: "Kanit", sans-serif;
+}
+
+.text {
+  padding-bottom: 0.8rem;
+}
+
+h1 {
+  color: #ffd700;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+p {
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+
+.social-icons {
+  font-size: 1.6rem;
+}
+
+.social-icon {
+  border-radius: 50%;
+  color: #ffffff;
+  margin: 0.2rem;
+}
+
+#email-icon,
+#github-icon,
+#linkedin-icon,
+#x-icon {
+  padding: 0.6rem;
+}
+
+#email-icon:hover,
+#github-icon:hover,
+#linkedin-icon:hover,
+#x-icon:hover {
+  transition: transform 0.1s;
+  transform: scale(1.2);
+}
+
+#email-icon {
+  background-color: #ff7043;
+}
+
+#github-icon {
+  background-color: #333333;
+}
+
+#linkedin-icon {
+  background-color: #0077b5;
+}
+
+#x-icon {
+  background-color: #000000;
+}
